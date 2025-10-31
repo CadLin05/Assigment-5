@@ -67,6 +67,8 @@ function all_score(){
     return highscores.slice();
 };
 
+
+//----------------------------------------------express controllers, ^above is previously used code---------------------------------------------------
 //express updating and creating
 const saveScore = ({username, score})=>{
     if(username && username.trim() != ''){
